@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Antimated GIFs</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      button {
+        height: 30px;
+        min-width: 200px;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+        border: 0;
+        color: white;
+        background-color: #bf0f0f;
+      }
+      button.enabled {
+        min-width: 100px;
+        background-color: #42f462;
+      }
+      button.disabled {
+        min-width: 100px;
+      }
+      button:focus {
+        outline:0;
+      }
+      button.not-enabled {
+        min-width: 200px;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <button></button>
+  </body>
+</html>
+
